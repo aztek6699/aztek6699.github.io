@@ -1,0 +1,80 @@
+export const blocks = [
+  {
+    id: 0,
+    layout: [[0, 0]],
+    color: 'empty',
+    rows: 0, columns: 0, start: [0, 0],
+  },
+  {
+    id: 1,
+    layout: [[0, 0], [0, -1], [0, 1], [1, -1], [1, 1]],
+    color: 'red',
+    rows: 2, columns: 3, start: [0, 1],
+  },
+  {
+    id: 2,
+    layout: [[0, 0], [0, -1], [0, -2], [-1, 0], [-1, 1]],
+    color: 'dark-pink',
+    rows: 2, columns: 4, start: [1, 2],
+  },
+  {
+    id: 3,
+    layout: [[0, 0], [0, -1], [-1, 0], [1, 0], [1, 1]],
+    color: 'pink',
+    rows: 3, columns: 3, start: [1, 1],
+  },
+  {
+    id: 4,
+    layout: [[0, 0], [-1, 0], [0, -1], [0, 1]],
+    color: 'blue',
+    rows: 2, columns: 3, start: [1, 1],
+  },
+  {
+    id: 5,
+    layout: [[0, 0], [0, -1], [-1, 0], [0, 1], [0, 2]],
+    color: 'yellow',
+    rows: 2, columns: 4, start: [1, 1],
+  },
+  {
+    id: 6,
+    layout: [[0, 0], [0, -1], [0, 1], [-1, 0], [-1, 1]],
+    color: 'purple',
+    rows: 2, columns: 3, start: [1, 1],
+  },
+  {
+    id: 7,
+    layout: [[0, 0], [0, -1], [-1, 0], [-1, 1]],
+    color: 'dark-purple',
+    rows: 2, columns: 3, start: [1, 1],
+  },
+  {
+    id: 8,
+    layout: [[0, 0], [0, 1], [1, 0], [2, 0]],
+    color: 'green',
+    rows: 3, columns: 2, start: [0, 0],
+  },
+  {
+    id: 9,
+    layout: [[0, 0], [0, 1], [0, 2], [0, 3], [-1, 0]],
+    color: 'dark-green',
+    rows: 2, columns: 4, start: [1, 0],
+  },
+  {
+    id: 10,
+    layout: [[0, 0], [0, -1], [0, -2], [1, 0], [2, 0]],
+    color: 'dark-orange',
+    rows: 3, columns: 3, start: [0, 2],
+  },
+  {
+    id: 11,
+    layout: [[0, 0], [-1, 0], [0, 1]],
+    color: 'orange',
+    rows: 2, columns: 2, start: [1, 0],
+  },
+  {
+    id: 12,
+    layout: [[0, 0], [-1, 0], [-1, -1], [0, 1], [1, 1]],
+    color: 'light-blue',
+    rows: 3, columns: 3, start: [1, 1],
+  },
+];
